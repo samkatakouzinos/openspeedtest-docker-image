@@ -2,7 +2,7 @@ version: '3.3'
 services:
     speedtest:
         restart: unless-stopped
-        container_name: openspeedtest
+        # container_name: openspeedtest
         ports:
             - '3100:3000'
             - '3101:3001'
